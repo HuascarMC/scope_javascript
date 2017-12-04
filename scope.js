@@ -122,9 +122,11 @@ console.log('the murderer is ', murderer);
 
 var police = 'woop woop'
 var arrested = []
+var murderer = 'rick';
 
 var arrest = function() {
- arrested.push(murder);
+ arrested.push(murderer);
+ console.log(police);
 
  var showArrested = function () {
    for (var person of arrested) {
